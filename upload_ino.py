@@ -11,7 +11,7 @@ from os.path import basename
 
 
 
-class HelloWorld:
+class Main:
 
     def __init__(self):
         self.path = "/dev/"
@@ -86,7 +86,7 @@ class HelloWorld:
 
 if __name__ == "__main__":
 
-    HelloWorld()
+    Main()
 
     gtk.main()
 
